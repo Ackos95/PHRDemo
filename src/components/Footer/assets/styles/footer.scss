@@ -1,0 +1,43 @@
+.footer {
+  min-height: 80px;
+  box-shadow: 0 0 2px #BBB;
+  -webkit-box-shadow: 0 0 2px #BBB;
+  background: #FFF;
+  width: 100%;
+  padding: 0;
+
+  .footer-inner {
+    margin: 0 auto;
+    padding: 30px 5%;
+
+    div {
+      text-align: left;
+      height: 30px;
+    }
+
+    .footer-list {
+      ul {
+        padding: 0;
+
+        li {
+          display: inline;
+          padding-left: 10px;
+
+          a {
+            padding-right: 15px;
+            color: #5D5D5D;
+            text-decoration: none;
+            font-size: 13px;
+
+            &:hover {
+              text-decoration: none;
+              color: #2B2B2B;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}

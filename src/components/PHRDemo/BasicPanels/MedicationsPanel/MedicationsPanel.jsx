@@ -1,5 +1,8 @@
 import React from 'react';
 
+// custom styles
+import '../assets/styles/index.css';
+
 const MedicationsPanel = () => (
     <div className="panel panel-default">
         <div className="panel-heading">

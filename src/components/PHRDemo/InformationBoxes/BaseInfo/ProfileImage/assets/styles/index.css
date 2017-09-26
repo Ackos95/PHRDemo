@@ -1,0 +1,11 @@
+.profile-image {
+  border: 3px solid #E6E9ED;
+  display: block;
+  height: 125px;
+  margin: 25px auto;
+  width: 125px;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s ease-out;
+  overflow: hidden; }
+  .profile-image:hover {
+    border-radius: 0; }

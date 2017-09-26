@@ -1,6 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
+// Bootstrap
+import 'bootstrap/dist/js/bootstrap.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import 'bootflat/bootflat/css/bootflat.min.css';
+
 // custom components
 import PHRDemo from '../PHRDemo/PHRDemo';
 import NotFound from '../NotFound/NotFound';
@@ -9,7 +15,6 @@ import Footer from '../Footer/Footer';
 
 // custom styles
 import './assets/styles/index.css';
-
 
 // here would go some application default layout, if it exist
 // in our case just simple router

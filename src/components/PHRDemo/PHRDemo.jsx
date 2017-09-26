@@ -6,13 +6,7 @@ import MedicationsPanel from './BasicPanels/MedicationsPanel/MedicationsPanel';
 import ProblemsPanel from './BasicPanels/ProblemsPanel/ProblemsPanel';
 import BaseInfo from './InformationBoxes/BaseInfo/BaseInfo';
 import MoreInfo from './InformationBoxes/MoreInfo/MoreInfo';
-import TimelinePanel from './Panels/TimelinePanel/TimelinePanel';
-import LabResultsPanel from './Panels/LabResultsPanel/LabResultsPanel';
-import BloodPressurePanel from './Panels/BloodPressurePanel/BloodPressurePanel';
-import BodyTemperaturePanel from './Panels/BodyTemperaturePanel/BodyTemperaturePanel';
-import HeightPanel from './Panels/HeightPanel/HeightPanel';
-import PulsePanel from './Panels/PulsePanel/PulsePanel';
-import WeightPanel from './Panels/WeightPanel/WeightPanel';
+import DynamicArea from './DynamicArea/DynamicArea';
 
 const PHRDemo = () => (
     <div className="container" style={{ paddingTop: 32 }}>
@@ -20,15 +14,7 @@ const PHRDemo = () => (
             <div className="col-md-9">
                 <BaseInfo />
                 <MoreInfo />
-                <div className="sortable-panels">
-                    <TimelinePanel />
-                    <LabResultsPanel />
-                    <BloodPressurePanel />
-                    <BodyTemperaturePanel />
-                    <HeightPanel />
-                    <PulsePanel />
-                    <WeightPanel />
-                </div>
+                <DynamicArea />
             </div>
             <div className="col-md-3">
                 <AllergiesPanel />

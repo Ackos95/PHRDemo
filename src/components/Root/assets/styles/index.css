@@ -1,8 +1,215 @@
+/**
+   * modal
+   * --------------------------------------------------
+   */
+.modal-content {
+  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #434A54;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+
+.modal-header {
+  border-bottom: none; }
+
+.modal-body {
+  padding: 0 15px; }
+
+.modal-footer {
+  border-top: none; }
+
+/**
+   * well
+   * --------------------------------------------------
+   */
+.well {
+  padding: 10px;
+  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #434A54;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+  .well blockquote {
+    border-color: #CCD1D9; }
+  .well-lg {
+    padding: 20px; }
+  .well-sm {
+    padding: 5px; }
+
+/**
+   * panel
+   * --------------------------------------------------
+   */
+.panel {
+  background-color: #FFF;
+  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+  .panel .list-group {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+  .panel .list-group-item:first-child {
+    border-top: 1px solid #E6E9ED; }
+  .panel-heading {
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0; }
+  .panel-title {
+    font-size: 14px;
+    color: #434A54;
+    font-weight: normal; }
+  .panel-footer {
+    background-color: #E6E9ED;
+    border-top-color: #E6E9ED;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px; }
+  .panel-default {
+    border-color: #E6E9ED; }
+    .panel-default > .panel-heading {
+      color: #434A54;
+      background-color: #E6E9ED;
+      border-color: #E6E9ED; }
+  .panel-primary {
+    border-color: #3BAFDA; }
+    .panel-primary > .panel-heading {
+      color: #FFF;
+      background-color: #3BAFDA;
+      border-color: #3BAFDA; }
+  .panel-success {
+    border-color: #8CC152; }
+    .panel-success > .panel-heading {
+      color: #FFF;
+      background-color: #8CC152;
+      border-color: #8CC152; }
+  .panel-info {
+    border-color: #37BC9B; }
+    .panel-info > .panel-heading {
+      color: #FFF;
+      background-color: #37BC9B;
+      border-color: #37BC9B; }
+  .panel-warning {
+    border-color: #F6BB42; }
+    .panel-warning > .panel-heading {
+      color: #FFF;
+      background-color: #F6BB42;
+      border-color: #F6BB42; }
+  .panel-danger {
+    border-color: #DA4453; }
+    .panel-danger > .panel-heading {
+      color: #FFF;
+      background-color: #DA4453;
+      border-color: #DA4453; }
+  .panel-primary > .panel-heading > .panel-title,
+  .panel-success > .panel-heading > .panel-title,
+  .panel-info > .panel-heading > .panel-title,
+  .panel-warning > .panel-heading > .panel-title,
+  .panel-danger > .panel-heading > .panel-title {
+    color: #FFF; }
+  .panel > .list-group:first-child .list-group-item:first-child,
+  .panel > .table:first-child,
+  .panel > .table-responsive:first-child > .table:first-child {
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0; }
+  .panel > .list-group:last-child .list-group-item:last-child {
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px; }
+  .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+  .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+  .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+  .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+    -webkit-border-radius: 4px 0 0 0;
+    -moz-border-radius: 4px 0 0 0;
+    border-radius: 4px 0 0 0; }
+  .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+  .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+  .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+  .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+  .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+  .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+    -webkit-border-radius: 0 4px 0 0;
+    -moz-border-radius: 0 4px 0 0;
+    border-radius: 0 4px 0 0; }
+  .panel > .table:last-child,
+  .panel > .table-responsive:last-child > .table:last-child {
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px; }
+  .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+  .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+  .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+  .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+    -webkit-border-radius: 0 0 0 4px;
+    -moz-border-radius: 0 0 0 4px;
+    border-radius: 0 0 0 4px; }
+  .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+  .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+  .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+  .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+  .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+  .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+    -webkit-border-radius: 0 0 4px 0;
+    -moz-border-radius: 0 0 4px 0;
+    border-radius: 0 0 4px 0; }
+  .panel > .panel-body + .table,
+  .panel > .panel-body + .table-responsive {
+    border-top-color: #E6E9ED; }
+
 body {
   color: #333; }
 
 .main-wrapper {
   margin-top: 72px; }
+  .main-wrapper ul {
+    padding: 0; }
+    .main-wrapper ul li a {
+      padding-right: 15px;
+      color: #5D5D5D;
+      text-decoration: none;
+      font-size: 13px; }
+      .main-wrapper ul li a:hover {
+        text-decoration: none; }
 
 .background-light-gray {
   background-color: #F7F7F7; }
+
+.bordered {
+  border-right: 1px solid #eee; }
+
+.centered {
+  text-align: center; }
+
+.panel-heading {
+  position: relative;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent; }
+
+.remove {
+  position: absolute;
+  right: 0; }

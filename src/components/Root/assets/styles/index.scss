@@ -1,11 +1,48 @@
+@import "bootflat_fix";
+
 body {
   color: #333;
 }
 
 .main-wrapper {
   margin-top: 72px;
+
+  ul {
+    padding: 0;
+
+    li {
+      a {
+        padding-right: 15px;
+        color: #5D5D5D;
+        text-decoration: none;
+        font-size: 13px;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
 .background-light-gray {
   background-color: #F7F7F7;
+}
+
+.bordered {
+  border-right: 1px solid #eee;
+}
+.centered {
+  text-align: center;
+}
+
+.panel-heading {
+  position: relative;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+}
+
+.remove {
+  position: absolute;
+  right: 0;
 }
