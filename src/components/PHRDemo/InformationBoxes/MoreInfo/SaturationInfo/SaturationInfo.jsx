@@ -8,7 +8,7 @@ const SaturationInfo = ({ satValue }) => (
     <div className="row">
         <div className="col-md-4">
             <p>Oxygen Saturation:</p>
-            <div className="value">{satValue.toFixed(2)}%</div>
+            <div className="value saturation">{satValue.toFixed(2)}%</div>
         </div>
         <div className="col-md-8">
             <ProgressBar loaded={satValue} additionalClasses="progress-bar-success" />

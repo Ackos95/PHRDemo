@@ -1,0 +1,35 @@
+.value {
+  font-size: 26px;
+  font-weight: 600; }
+  .value.height {
+    font-size: 16px; }
+  .value.last-bp {
+    font-size: 16px; }
+  .value.saturation {
+    font-size: 16px; }
+
+.alert-notice {
+  display: block;
+  font-size: 10px;
+  color: #DA4453; }
+
+.patient-height-stats p {
+  margin: 0;
+  color: #999; }
+
+.patient-height-stats {
+  position: absolute;
+  top: 98px;
+  left: 118px; }
+
+.patient-height-image {
+  position: absolute;
+  top: 10px;
+  left: 60px; }
+
+.col-md-4 > .bordered > .centered > p {
+  margin: 0; }
+
+p {
+  margin: 0;
+  color: #999; }

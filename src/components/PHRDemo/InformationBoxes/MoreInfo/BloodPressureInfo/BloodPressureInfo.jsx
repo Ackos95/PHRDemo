@@ -8,7 +8,7 @@ const BloodPressureInfo = ({ bpValue }) => (
     <div className="row">
         <div className="col-md-4">
             <p>Blood Pressure:</p>
-            <div className="value">{bpValue}</div>
+            <div className="value last-bp">{bpValue}</div>
         </div>
         <div className="col-md-4 centered">
             <ProgressBar loaded={40}/>
