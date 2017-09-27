@@ -66,15 +66,6 @@ class DynamicArea extends Component {
                         unit: "mg/L",
                         value: 12
                     },
-                    {
-                        loinc: "2093-3",
-                        name: "S-Cholesterol",
-                        normal_max: 200,
-                        normal_min: null,
-                        time: "2014-03-04T00:46:02.000+01:00",
-                        unit: "mg/dL",
-                        value: 187
-                    }
                 ]} />
                 <BloodPressurePanel />
                 <BodyTemperaturePanel />

@@ -54,7 +54,7 @@ value
             : <span className="not-in-range">{value} <i className="fa fa-chevron-circle-up" /></span>
 
         return (
-            <tr>
+            <tr key={`${loinc}-${name}-${value}`}>
                 <td>{name}</td>
                 <td>{loinc}</td>
                 <td>{range}</td>
