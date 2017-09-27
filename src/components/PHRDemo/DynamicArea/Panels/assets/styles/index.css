@@ -8,7 +8,27 @@
   position: relative !important;
   padding: 10px 15px !important;
   border-bottom: 1px solid transparent !important; }
+  .panel-heading h3 {
+    color: white !important; }
 
 .remove {
   position: absolute;
   right: 0; }
+
+.panel-default .panel-footer .last-measurement div {
+  color: #E6E9ED; }
+
+.panel-primary .panel-footer .last-measurement div {
+  color: #3BAFDA; }
+
+.panel-success .panel-footer .last-measurement div {
+  color: #8CC152; }
+
+.panel-danger .panel-footer .last-measurement div {
+  color: #DA4453; }
+
+.panel-warning .panel-footer .last-measurement div {
+  color: #F6BB42; }
+
+.panel-info .panel-footer .last-measurement div {
+  color: #37BC9B; }

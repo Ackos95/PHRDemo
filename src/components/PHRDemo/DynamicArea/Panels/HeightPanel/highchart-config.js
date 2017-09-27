@@ -1,5 +1,3 @@
-import moment from 'moment';
-
 import baseConfig from '../highcharts-config-base';
 
 const chartConfig = Object.assign({}, baseConfig, {

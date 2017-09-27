@@ -197,6 +197,12 @@ body {
       .main-wrapper ul li a:hover {
         text-decoration: none; }
 
+a {
+  color: #2980B9; }
+  a:hover {
+    cursor: pointer;
+    color: #3498DB; }
+
 .background-light-gray {
   background-color: #F7F7F7; }
 

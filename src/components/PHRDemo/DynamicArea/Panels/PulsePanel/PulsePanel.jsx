@@ -17,6 +17,16 @@ class PulsePanel extends PanelBase {
     renderContent() {
         return <ReactHighcharts config={config} />
     }
+
+    renderFooter() {
+        return (
+            <div className="last-measurement">
+                As of:
+                <span className="last-pulse-date">03-Mar-2014 at 07:28</span>
+                <div className="last-pulse">88 /min</div>
+            </div>
+        )
+    }
 }
 
 export default PulsePanel;

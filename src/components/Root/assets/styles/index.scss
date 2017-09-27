@@ -27,6 +27,15 @@ body {
   }
 }
 
+a {
+  color: #2980B9;
+
+  &:hover {
+    cursor: pointer;
+    color: #3498DB;
+  }
+}
+
 .background-light-gray {
   background-color: #F7F7F7;
 }

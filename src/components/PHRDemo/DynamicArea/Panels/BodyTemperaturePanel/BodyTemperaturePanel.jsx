@@ -17,6 +17,16 @@ class BodyTemperaturePanel extends PanelBase {
     renderContent() {
         return <ReactHighcharts config={config} />
     }
+    
+    renderFooter() {
+        return (
+            <div className="last-measurement">
+                As of:
+                <span className="last-bt-date">03-Mar-2014 at 07:28</span>
+                <div className="last-bt">37.7 °C</div>
+            </div>
+        )
+    }
 }
 
 export default BodyTemperaturePanel;

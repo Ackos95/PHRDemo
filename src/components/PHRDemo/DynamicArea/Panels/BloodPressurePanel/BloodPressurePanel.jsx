@@ -18,6 +18,16 @@ class BloodPressurePanel extends PanelBase {
         return <ReactHighcharts config={config}/>
     }
 
+    renderFooter() {
+        return (
+            <div className="last-measurement">
+                As of:
+                <span className="last-bp-date">03-Mar-2014 at 07:28</span>
+                <div className="last-bp">88/70 mm[Hg]</div>
+            </div>
+        )
+    }
+
 }
 
 export default BloodPressurePanel;

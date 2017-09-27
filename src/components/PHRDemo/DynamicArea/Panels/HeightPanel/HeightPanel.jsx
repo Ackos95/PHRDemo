@@ -17,6 +17,16 @@ class HeightPanel extends PanelBase {
     renderContent() {
         return <ReactHighcharts config={config} />
     }
+    
+    renderFooter() {
+        return (
+            <div className="last-measurement">
+                As of:
+                <span className="last-ch-date">03-Mar-2014 at 07:28</span>
+                <div className="last-ch">163 cm</div>
+            </div>
+        )
+    }
 }
 
 export default HeightPanel;
