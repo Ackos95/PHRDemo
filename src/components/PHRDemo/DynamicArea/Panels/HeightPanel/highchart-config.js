@@ -1,3 +1,5 @@
+import moment from 'moment';
+
 import baseConfig from '../highcharts-config-base';
 
 const chartConfig = Object.assign({}, baseConfig, {
@@ -9,6 +11,7 @@ const chartConfig = Object.assign({}, baseConfig, {
     },
     plotOptions: {
         series: {
+            color: '#48cfad',
             borderWidth: 0,
             dataLabels: {
                 enabled: false,
@@ -16,8 +19,9 @@ const chartConfig = Object.assign({}, baseConfig, {
         }
     },
     tooltip: {
-        headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-        pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+        formatter: function() {
+            return `${this.point.name}<br /><span style="color: ${this.series.color}">${this.series.name}: ${this.y}</span>`;
+        }
     },
     series: [{
         name: 'Height',

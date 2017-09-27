@@ -13,9 +13,11 @@ const chartConfig = Object.assign({}, baseConfig, {
             year: '%b'
         },
     },
-    // tooltip: {
-    //     pointFormat: '{series.name} produced <b>{point.y:,.0f}</b><br/>warheads in {point.x}'
-    // },
+    tooltip: {
+        formatter: function() {
+            return `${moment(this.x).format('DD-MMM-YYYY')}<br /><span style="color: ${this.series.color}">${this.series.name}: ${this.y}</span>`;
+        }
+    },
     plotOptions: {
         area: {
             marker: {
@@ -32,6 +34,8 @@ const chartConfig = Object.assign({}, baseConfig, {
     },
     series: [{
         name: 'Systolic',
+        color: '#da4453',
+        fillColor: '#ee949d',
         data: [
             [moment('2014-01-22T17:30:10.000+01:00').valueOf(), 96],
             [moment('2014-02-06T08:26:28.000+01:00').valueOf(), 107],
@@ -42,6 +46,8 @@ const chartConfig = Object.assign({}, baseConfig, {
         ]
     }, {
         name: 'Diastolic',
+        color: '#da4453',
+        fillColor: '#dd7983',
         data: [
             [moment('2014-01-22T17:30:10.000+01:00').valueOf(), 59],
             [moment('2014-02-06T08:26:28.000+01:00').valueOf(), 58],

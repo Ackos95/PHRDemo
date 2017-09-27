@@ -13,9 +13,11 @@ const chartConfig = Object.assign({}, baseConfig, {
             year: '%b'
         },
     },
-    // tooltip: {
-    //     pointFormat: '{series.name} produced <b>{point.y:,.0f}</b><br/>warheads in {point.x}'
-    // },
+    tooltip: {
+        formatter: function() {
+            return `${moment(this.x).format('DD-MMM-YYYY')}<br /><span style="color: ${this.series.color}">${this.series.name}: ${this.y}</span>`;
+        }
+    },
     plotOptions: {
         area: {
             marker: {
@@ -32,6 +34,8 @@ const chartConfig = Object.assign({}, baseConfig, {
     },
     series: [{
         name: 'Pulse',
+        color: '#a0d468',
+        fillColor: '#bede9c',
         data: [
             [moment('2014-01-22T17:30:10.000+01:00').valueOf(), 119],
             [moment('2014-02-06T08:26:28.000+01:00').valueOf(), 54],
