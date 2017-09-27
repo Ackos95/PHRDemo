@@ -10,7 +10,7 @@ class PulsePanel extends PanelBase {
     constructor(props) {
         super(props);
 
-        this.additionalClasses = 'panel-success';
+        this.additionalClasses = 'panel-success pulse-panel';
         this.title = 'Pulse';
     }
 

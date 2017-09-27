@@ -10,7 +10,7 @@ class BloodPressurePanel extends PanelBase {
     constructor(props) {
         super(props);
 
-        this.additionalClasses = 'panel-danger';
+        this.additionalClasses = 'panel-danger bp';
         this.title = 'Blood Pressure';
     }
 

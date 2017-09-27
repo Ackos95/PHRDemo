@@ -10,7 +10,7 @@ class HeightPanel extends PanelBase {
     constructor(props) {
         super(props);
 
-        this.additionalClasses = 'panel-info';
+        this.additionalClasses = 'panel-info height-panel';
         this.title = 'Height';
     }
 
