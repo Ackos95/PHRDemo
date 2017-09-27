@@ -8,6 +8,7 @@ import HeightInfo from './HeightInfo/HeightInfo';
 
 // custom styles
 import '../../../../../node_modules/flat-ui/css/flat-ui.css';
+import './assets/styles/index.css';
 
 import bodyBlankFemaleImage from './assets/images/body-blank-female.png';
 
@@ -16,9 +17,9 @@ const MoreInfo = () => (
         <div className="row">
             <div className="col-md-8 bordered">
                 <div className="row" style={{ minHeight: 67 }}>
-                    <InfoBox label="Age" value={41} />
-                    <InfoBox label="Weight" value={47.6} unit="kg" />
-                    <InfoBox label="BMI" value={17.92} unit="kg/m2" alertMessage="Underweight (Risk)" />
+                    <InfoBox label="Age:" value={41} />
+                    <InfoBox label="Weight:" value={47.6} unit="kg" />
+                    <InfoBox label="BMI:" value={17.92} unit="kg/m2" alertMessage="Underweight (Risk)" />
                 </div>
                 <hr />
                 <div className="row">

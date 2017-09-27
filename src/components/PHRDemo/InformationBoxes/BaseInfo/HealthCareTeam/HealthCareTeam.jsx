@@ -5,7 +5,11 @@ import PropTypes from 'prop-types';
 import './assets/styles/index.css';
 
 const HealthCareTeam = ({ image }) => (
-    <div>
+    <div className="patient-team">
+        <div className="ver-spacer left">
+            <div className="mask">
+            </div>
+        </div>
         <p>Healthcare team:</p>
         <div className="doctor-image">
             <img src={image} alt="Doctor" />
@@ -18,3 +22,4 @@ HealthCareTeam.propTypes = {
 };
 
 export default HealthCareTeam;
+
