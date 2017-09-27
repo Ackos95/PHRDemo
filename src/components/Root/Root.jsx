@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // Bootstrap
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+
+// import * as fonts from 'font-awesome/fonts';
 
 // import 'bootflat/bootflat/css/bootflat.min.css';
 
