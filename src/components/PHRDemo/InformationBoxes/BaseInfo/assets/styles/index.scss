@@ -1,0 +1,30 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+.patient-info{
+  color: #999; 
+  p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  span{
+    color: #333 !important;
+    font-weight: 600;
+  }
+
+  &:after{
+    content: '';
+    display: block;
+    margin-left: -20px;
+    width: 20px;
+    height: 100%;
+    border-radius: 12px / 125px;
+    box-shadow: 0 0 8px #656D78;    
+  }
+    
+}
+
+#patient-name{
+  font-size: 20px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: #37BC9B;
+}

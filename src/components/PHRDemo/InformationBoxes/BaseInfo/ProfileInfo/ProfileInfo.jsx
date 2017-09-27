@@ -11,12 +11,12 @@ const ProfileInfo = ({ firstName, lastName, dateOfBirth, gender, address }) => {
     let diffMonth = birthDate ? moment().diff(birthDate, 'month') % 12 : null;
 
     return (
-        <div>
-            <h4>{firstName || lastName ? `${firstName} ${lastName}` : '-'}</h4>
-            <p>Age: {diffYear || diffMonth ? `${diffYear}y ${diffMonth}m` : '-'}</p>
-            <p>Gender: {startCase(toLower(gender)) || '-'}</p>
-            <p>DOB: {birthDate ? birthDate.format('MMM. D, YYYY.') : '-'}</p>
-            <p>Address: {address || '-'}</p>
+        <div className="patient-info">
+            <h4 id="patient-name">{firstName || lastName ? `${firstName} ${lastName}` : '-'}</h4>
+            <p>Age: <span>{diffYear || diffMonth ? `${diffYear}y ${diffMonth}m` : '-'}</span></p>
+            <p>Gender: <span>{startCase(toLower(gender)) || '-'}</span></p>
+            <p>DOB: <span>{birthDate ? birthDate.format('MMM. D, YYYY.') : '-'}</span></p>
+            <p>Address: <span>{address || '-'}</span></p>
         </div>
     );
 };

@@ -9,6 +9,9 @@ import HealthCareTeam from './HealthCareTeam/HealthCareTeam';
 import femaleImage from './assets/images/female.png';
 import doctorImage from './assets/images/doctor.png';
 
+// custom styles
+import './assets/styles/index.css';
+
 const BaseInfo = () => (
     <div className="well">
         <div className="row">
