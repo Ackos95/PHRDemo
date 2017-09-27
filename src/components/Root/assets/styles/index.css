@@ -182,7 +182,8 @@
     border-top-color: #E6E9ED; }
 
 body {
-  color: #333; }
+  color: #333;
+  font-family: "Lato", Helvetica, Arial, sans-serif; }
 
 .main-wrapper {
   margin-top: 72px; }

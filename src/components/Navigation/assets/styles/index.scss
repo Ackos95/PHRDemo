@@ -1,0 +1,45 @@
+@import "variables";
+
+.navbar-blue{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-top: 4px solid #1292c9;
+  height: 72px;
+  background: #fff;
+  box-shadow: 0 0 3px #BEBEBE;
+  -webkit-box-shadow: 0 0 3px #BEBEBE;
+  z-index: 2;
+  opacity: 0.92;
+}
+
+.navbar-brand {
+  color: $font-color-blue !important;
+  cursor: pointer;
+  font-size: 32px !important;
+    
+  img {
+    margin-top: -5px;
+    display: inline !important;    
+  }
+  &:hover {
+    color: $hover-color-blue !important;
+  }
+       
+}
+.navbar .nav > li > a {
+    color: $font-color-blue;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 20px 14px 10px;
+    line-height: 23px;
+    font-weight: 700;
+    &:hover{
+      color: $hover-color-blue;
+    }
+}
+
+.selected {
+  border-bottom: 2px solid #3498DB;
+}

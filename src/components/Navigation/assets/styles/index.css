@@ -1,0 +1,35 @@
+.navbar-blue {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-top: 4px solid #1292c9;
+  height: 72px;
+  background: #fff;
+  box-shadow: 0 0 3px #BEBEBE;
+  -webkit-box-shadow: 0 0 3px #BEBEBE;
+  z-index: 2;
+  opacity: 0.92; }
+
+.navbar-brand {
+  color: #2980B9 !important;
+  cursor: pointer;
+  font-size: 32px !important; }
+  .navbar-brand img {
+    margin-top: -5px;
+    display: inline !important; }
+  .navbar-brand:hover {
+    color: #3bafda !important; }
+
+.navbar .nav > li > a {
+  color: #2980B9;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 20px 14px 10px;
+  line-height: 23px;
+  font-weight: 700; }
+  .navbar .nav > li > a:hover {
+    color: #3bafda; }
+
+.selected {
+  border-bottom: 2px solid #3498DB; }
