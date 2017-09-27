@@ -10,7 +10,7 @@ class WeightPanel extends PanelBase {
     constructor(props) {
         super(props);
 
-        this.additionalClasses = 'panel-primary';
+        this.additionalClasses = 'panel-primary weight-panel';
         this.title = 'Weight';
     }
 

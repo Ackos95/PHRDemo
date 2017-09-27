@@ -37,3 +37,39 @@ body {
 .centered {
   text-align: center;
 }
+.remove{
+  padding-right: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.bp {
+    width: 47%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.bt {
+    width: 47%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.pulse-panel{
+    width: 47%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.height-panel{
+    width: 47%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.weight-panel{
+    width: 47%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.panel-title{
+    cursor: move;
+}

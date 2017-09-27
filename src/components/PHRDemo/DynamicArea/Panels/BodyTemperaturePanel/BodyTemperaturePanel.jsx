@@ -10,7 +10,7 @@ class BodyTemperaturePanel extends PanelBase {
     constructor(props) {
         super(props);
         
-        this.additionalClasses = 'panel-warning';
+        this.additionalClasses = 'panel-warning bt';
         this.title = 'Body Temperature';
     }
 
