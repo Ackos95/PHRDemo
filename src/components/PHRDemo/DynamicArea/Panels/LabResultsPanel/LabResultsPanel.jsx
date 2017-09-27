@@ -2,7 +2,8 @@ import React from 'react';
 import moment from 'moment';
 
 import PanelBase from '../PanelBase';
-
+// custom styles
+import './assets/styles/index.css';
 class LabResultsPanel extends PanelBase {
 
     constructor(props) {
@@ -51,7 +52,7 @@ value
             : (normal_max ? (value <= normal_max) : (value >= normal_min));
         const showValue = valueInRange
             ? <span className="in-range">{value}</span>
-            : <span className="not-in-range">{value} <i className="fa fa-chevron-circle-up" /></span>
+            : <span className="not-in-range" >{value} <i className="fa fa-chevron-circle-up" /></span>
 
         return (
             <tr>
