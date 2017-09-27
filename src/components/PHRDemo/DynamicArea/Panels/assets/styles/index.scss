@@ -1,44 +1,47 @@
 /* Bootstrap overrides */
-.panel-footer {
-  color: #999 !important;
-  background-color: white !important;
-  text-align: center !important;
-}
 
-.panel-heading {
-  position: relative !important;
-  padding: 10px 15px !important;
-  border-bottom: 1px solid transparent !important;
-  h3 {
-    color: white !important;
+.dynamic-area {
+  .panel-footer {
+    color: #999 !important;
+    background-color: white !important;
+    text-align: center !important;
   }
-}
 
-.remove {
-  position: absolute;
-  right: 0;
-}
+  .panel-heading {
+    position: relative !important;
+    padding: 10px 15px !important;
+    border-bottom: 1px solid transparent !important;
+    h3 {
+      color: white !important;
+    }
+  }
 
-.panel-default .panel-footer .last-measurement div{
-  color: #E6E9ED;
-}
+  .remove {
+    position: absolute;
+    right: 0;
+  }
 
-.panel-primary .panel-footer .last-measurement div{
-  color: #3BAFDA;
-}
+  .panel-default .panel-footer .last-measurement div {
+    color: #E6E9ED;
+  }
 
-.panel-success .panel-footer .last-measurement div{
-  color: #8CC152;
-}
+  .panel-primary .panel-footer .last-measurement div {
+    color: #3BAFDA;
+  }
 
-.panel-danger .panel-footer .last-measurement div{
-  color: #DA4453;
-}
+  .panel-success .panel-footer .last-measurement div {
+    color: #8CC152;
+  }
 
-.panel-warning .panel-footer .last-measurement div{
-  color: #F6BB42;
-}
+  .panel-danger .panel-footer .last-measurement div {
+    color: #DA4453;
+  }
 
-.panel-info .panel-footer .last-measurement div{
-  color: #37BC9B;
+  .panel-warning .panel-footer .last-measurement div {
+    color: #F6BB42;
+  }
+
+  .panel-info .panel-footer .last-measurement div {
+    color: #37BC9B;
+  }
 }
