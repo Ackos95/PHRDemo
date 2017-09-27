@@ -3,12 +3,10 @@
   list-style: initial; }
 
 .panel-body li {
-    font-size: 13px;
-}
+  font-size: 13px; }
 
 .panel-title {
   font-size: 22px !important;
   color: #434A54 !important;
   font-weight: normal !important;
-  font-weight: 300 !important;
-} 
+  font-weight: 300 !important; }
