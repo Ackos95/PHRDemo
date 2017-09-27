@@ -16,7 +16,7 @@ const MoreInfo = () => (
         <div className="row">
             <div className="col-md-8 bordered">
                 <div className="row" style={{ minHeight: 67 }}>
-                    <InfoBox label="Age" value="41" />
+                    <InfoBox label="Age" value={41} />
                     <InfoBox label="Weight" value={47.6} unit="kg" />
                     <InfoBox label="BMI" value={17.92} unit="kg/m2" alertMessage="Underweight (Risk)" />
                 </div>

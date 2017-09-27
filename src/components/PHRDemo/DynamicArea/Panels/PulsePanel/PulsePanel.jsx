@@ -1,6 +1,9 @@
 import React from 'react';
+import ReactHighcharts from 'react-highcharts';
 
 import PanelBase from '../PanelBase';
+
+import config from './highchart-config';
 
 class PulsePanel extends PanelBase {
 
@@ -12,7 +15,7 @@ class PulsePanel extends PanelBase {
     }
 
     renderContent() {
-        return <div />
+        return <ReactHighcharts config={config} />
     }
 }
 

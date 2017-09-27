@@ -1,0 +1,14 @@
+/* Bootstrap overrides */
+.panel-footer {
+  color: #999 !important;
+  background-color: white !important;
+  text-align: center !important; }
+
+.panel-heading {
+  position: relative !important;
+  padding: 10px 15px !important;
+  border-bottom: 1px solid transparent !important; }
+
+.remove {
+  position: absolute;
+  right: 0; }

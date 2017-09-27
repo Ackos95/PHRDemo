@@ -1,6 +1,9 @@
 import React from 'react';
+import ReactHighcharts from 'react-highcharts';
 
 import PanelBase from '../PanelBase';
+
+import config from './highchart-config';
 
 class BodyTemperaturePanel extends PanelBase {
 
@@ -12,7 +15,7 @@ class BodyTemperaturePanel extends PanelBase {
     }
 
     renderContent() {
-        return <div />
+        return <ReactHighcharts config={config} />
     }
 }
 

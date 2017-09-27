@@ -204,12 +204,3 @@ body {
 
 .centered {
   text-align: center; }
-
-.panel-heading {
-  position: relative;
-  padding: 10px 15px;
-  border-bottom: 1px solid transparent; }
-
-.remove {
-  position: absolute;
-  right: 0; }
